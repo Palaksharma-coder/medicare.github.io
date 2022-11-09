@@ -1,0 +1,438 @@
+* {margin: 0px;
+    box-sizing: border-box;}
+/* :root {color: #e10f28;} */
+
+body {
+    background-color: white;
+}
+
+.navbar{font-size: 16px;}
+.navbar .navbar-brand {
+    padding-right: 10px;
+}
+
+.navbar .nav-link {
+    color: #555;
+    font-size: 0.9em;
+    padding-left: 14px!important;
+    padding-right: 14px!important;
+    font-weight: 500;
+   ;
+}
+
+
+.navbar .nav-item a:hover{color: #e10f28; font-weight: 500; position: relative; }
+
+.navbar .nav-item .nav-link ::after {
+    content: "";
+    background-color: #e10f28;
+    width: 80%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50px;
+}
+
+.navbar .social-icon a {
+    color: #e10f28;
+    padding-left: 15px;
+}
+/*------------------------------------------ Banner-Close--------------------------------------- */
+
+.banner .slider-1{background-image:url('..//img/bgn-slider-01.jpg'); background-size: cover; height: 90vh; position: relative; background-position: center; }
+.banner .slider-2{background-image:url('..//img/bgn-slider-02.jpg'); background-size: cover; height: 90vh; position: relative; background-position: center; }
+ .caption {width: 50%; padding: 70px 0px;}
+ .para-1{font-size: 20px; color: #555; padding: 20px 0px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; letter-spacing: -0.10px!important;}
+ .para-1::after{ content: ""; display: block; width: 10%; height: 2px;background: #e10f28; position: absolute; margin-top: 5px;}
+
+ 
+ .para-2-bold{font-size: 80px; font-weight: 900; color:#e10f28; font-family: Montserrat!important; line-height: 1.15;}
+ .para-3{font-size: 70px; font-weight: 300; color: #222; line-height: 1.5;}
+ .caption p{line-height: 30px; font-size: 18px; color: #444; font-weight: 450;}
+ .caption .banner-area-btn{margin-top: 30px;}
+ .caption .banner-area-btn button{padding: 12px 30px; border: none; border-radius: 30px; color: white; margin-right: 10px; font-weight: 750;}
+ .caption .banner-area-btn .btn-1{background-color: #e10f28;}
+ .caption .banner-area-btn .btn-1:hover{background-color: #b32424;}
+ .caption .banner-area-btn .btn-2{background-color: #222;}
+ .caption .banner-area-btn .btn-2:hover{background-color: #000;}
+ .para-2-your-wealth{font-size: 70px; font-weight: 900; color:#222; font-family: Montserrat!important; line-height: 1.15; }
+ .para-3-bold{font-size: 70px; font-weight: 800; color: #e10f28; line-height: 1.5;}
+
+/*---------------------------- Banner-Close----------------------------- */
+
+/* ---------------------------Next-Pre-btn--- ---------------------*/
+.owl-prev{position: absolute; background-color: rgba(00, 00, 00, 0.1)!important; font-size: 30px!important; font-weight: 900!important; color: #444!important; left: 0px; top: 50%; transform: translate(0px, -50%); width: 50px; height: 90px;}
+.owl-next{position: absolute; background-color: rgba(00, 00, 00, 0.1)!important; font-size: 30px!important; font-weight: 900!important; color: #444!important; right: 0px; top: 50%; transform: translate(0px, -50%);  width: 50px; height: 90px;}
+.owl-next:hover{background-color: #e10f28!important; color: white!important;}
+.owl-prev:hover{background-color: #e10f28!important; color: white!important;}
+.owl-dots{position: absolute; bottom: 20px; left: 50%; transform: translate(-50%, -3-px); display: inline-block;}
+/* --------------------------Next-Pre-btn close---------------------- */
+/* --------------------------section--------------------------------- */
+.section{margin-top: 25px;}
+.card{border:none; background:transparent;}
+.section .col-lg-3:nth-child(1){background-color: rgba(235, 29, 53, 1)}
+.section .col-lg-3:nth-child(2){background-color:rgba(225, 15, 40, 1) ;}
+.section .col-lg-3:nth-child(3){background-color:rgba(209, 11, 34, 1) ;}
+.section .col-lg-3:nth-child(4){background-color: rgba(40, 40, 40, 1);}
+.section .card img{width: 100%;}
+.section .card-body{ text-align: left;}
+.section .better{font: 12px; color: white; text-align: left;}
+.section .bold-text{font-size: 30px; font-weight: 500; color: white; line-height: 3; text-align: left;}
+.section p{color: white; font-size: 12px; line-height: 1.9; text-align: left;}
+.section button{width: 150px; height: 30px; font: 18px; padding: 1px; border: none; border-radius: 30px; font-size: 12px; font-weight: 750;}
+
+.section .card .left-box{width: 30%; align-items: center; justify-content: center;}
+.section .card .left-box img{background-size: cover; background-position: center; width: 100%; padding: 20px 15px; color: #e10f28; }
+
+.section .card .right-box{width: 70%; text-align: start; color: white;}
+.section .card .right-box h6{line-height: 0px; padding: 0px; margin: 0px; font: 12px; font-weight: 700;}
+.section .card .right-box span{line-height: 0px; padding: 0px; margin: 0px; font-size: 14px; font-weight: 300; }
+
+
+/* --------------About us--------------- */
+.About-us .about-us{background-image: url('..//img/bgn-team-members.jpg'); background-size: cover; background-position: center; font: 16px;}
+.about-us .col-lg-8{margin-top: 90px; font-size: 16px;}
+.about-us .name-team{padding-right: 30px;}
+.about-us .para-1{font-size: 1.2em;}
+.about-us .para-2-bold{font-size: 4em; font-weight: 900;}
+.about-us .para-3 {font-size: 4em;}
+.about-us .about-team{padding: 20px 0px;}
+.about-team .name-heading{color: #e10f28; font-weight: 600; font-size: 1em; }
+.about-us .name-position{color: #222; font-weight: 200; font-size: 0.8em; text-align: end;}
+.about-team img{width: 120px;}
+.about-us .about-footer{padding: 30px;}
+.about-us .container {padding-top: 30px; padding-bottom: 60px;}
+ .about-us .left-box {min-width: 90px; height: 90px; border: solid 2px #e10f28; border-radius: 90px; text-align: center; line-height: 90px; margin: 10px 0px;}
+ .about-us  .left-box img{width: 70%; height: 70%;}
+.about-us  .right-box {padding-left: 20px;}
+.about-us .right-box .heading-bold{font-size: 1.1em; font-weight: 500; color: black;}
+.about-us .right-box p{font-size: 0.9em; color: #444;}
+
+
+ 
+
+.section-2{font-size: 16px; margin-top: -55px;}
+.section-2 .row{flex-wrap: wrap;}
+.section-2 img{width: 100%; }
+.section-2 .col-lg-3{ padding: 0px; padding: 0px 10px;  text-align: center; margin: 10px 0px;}
+.section-2 .card{padding-top: 20px; background-color: #f1f1f1;  }
+.section-2 .card { position: relative;}
+.section-2 .doc-post{font-size: 0.9em; color: #222; font-weight: 500; line-height: 2; padding-top: 10px;}
+.section-2 .doc-name{font-size: 1.8em; color: black; line-height: 2; }
+.section-2 .doc-about{font-size: 0.75em; line-height: 2; }
+.section-2 .col-lg-3 button{border-radius: 50px; border: none; padding: 12px 18px; background-color:white; font-weight: 650; font-size: 0.8em; margin-top: 10px;}
+.section-2 .col-lg-3 button:hover{background-color: silver}
+.section-2 .card-body{position: relative;}
+.section-2 .wrap{background-color: #e10f28; color: white; display: inline-block; height: 80px; width: 80px; border-radius: 80px; border-radius: solid black 2px; font-size: 25px; text-align: center; line-height: 80px; position: absolute; top:-100px; left: 50%; transform: translate(-50%, 50%);z-index: 1;}
+.section-2 .wrap img{width: 80%; padding: 10px; line-height: 80px; text-align: center; color: white!important;}
+
+
+/* --------------SECTION -2 CLOSE------------------- */
+/* --------------section -3 start--------------------- */
+.section-3{font-size: 16px; padding: 100px 0px;}
+.section-3 .col-lg-8 .service{font-size: 1.2em; font-weight: 500; color: #444; padding: 18px 0px;}
+.section-3 .col-lg-8 .service::after{content: ""; display: block; width: 10%; height: 2px;background: #e10f28; position: absolute; margin-top: 5px;}
+.section-3 .col-lg-8 .how-can{font-size: 4em; color: black; font-weight: 100; line-height: 1;}
+.section-3 .col-lg-8 .help {font-size: 4em; color: #e10f28; font-weight: 900; line-height: 2;}
+.section-3 .col-lg-8 .para{font-size: 1.2em; line-height: 1.5; }
+
+.section-3  .col-lg-4 .service-box{background-color: white; border: solid 10px #f1f1f1; padding: 50px 35px;}
+.section-3 .col-lg-4 {font-size: 16px; }
+.section-3 .col-lg-4 .book{font-size: 0.8em; color: black; font-weight: 500; line-height: 1.5;padding: 18px 0px;}
+.section-3 .col-lg-4 .book::after{content: ""; display: block; width: 10%; height: 2px;background: #e10f28; position: absolute; margin-top: 5px;}
+.section-3 .col-lg-4 .consult {font-size: 1.5em; color: #e10f28; font-weight: 900; line-height: 2;}
+.section-3 .col-lg-4 .para-0{font-size: 0.8em; line-height: 2; }
+.section-3 .col-lg-4 .btn{background-color:#f1f1f1 ; font-size: 0.8em; color: black; font-weight: 500; border-radius: 50px; margin-top: 10px; padding: 10px 15px;}
+/* ---------------section-3 -close-------------- */
+/* ---------------section-4 -start---------------- */
+.section-4{font-size: 16px;}
+.section-4 .col-lg-4 {border-right: #f1f1f1 solid 2px; margin-bottom: 120px;}
+.section-4 .col-lg-4:nth-last-child(1){border-right: none;}
+.section-4 .col-lg-4 img{width: 100%; padding-bottom: 20px; padding-left: 100px; padding-right: 100px;}
+.section-4 .col-lg-4 .heart-sergery{color: #222; font-size: 1.5em;  line-height: 2; text-align: center;}
+.section-4 .col-lg-4 .heart-sergery::after{content: ""; display: block; width: 20%; height: 2px; margin: 0px 35%; background: #e10f28; position: absolute; justify-content: center;}
+.section-4 .col-lg-4 .paragraph{ font-size: 1em; text-align: center; line-height: 1.8; padding-top: 15px;}
+/* -------------------service -4 close----------------- */
+ /* -------------------service-5 start------------------ */
+ .section-5 {font-size: 16px;  padding-bottom: 90px;}
+ .section-5{background-image: url('..//img/bgn-testimonials.jpg'); background-size: cover; }
+ .section-5 .col-lg-12{text-align: center;}
+ .section-5 button{background-color: #222; display: block; border-radius: 50px; padding: 10px 18px; color: white; font-size: 0.8em; font-weight: 500; margin-top: -22px; border: none;}
+
+ .section-5 h3{color: white; font-size: 1.4em; font-weight: 400; padding-top: 100px;}
+ .section-5 h3::after{content: ""; display: block; width: 10%; height: 2px; margin: 0px 43%; background: #222; position: absolute; margin-top: 5px;}
+ .section-5 h2{color: white; font-size: 4.5em; font-weight: 100;}
+ .section-5 span{color: #222; font-size: 1em; font-weight: 900;}
+ .section-5 p{color: white; line-height: 4; font-size: 1.1em;}
+
+
+ .section-5 .col-lg-3 .card img{border-radius: 100%; padding: 15px;}
+ .section-5 .col-lg-3 .paras{color: white; font-size: 0.9em; padding-bottom: 30px; font-weight: 400; border-bottom: 0.5px solid rgba(255, 255, 255, 0.372);}
+ .section-5 .col-lg-3 h4{color: white; font-size: 1.2em; font-weight: 400; line-height: 2; padding-top: 30px;}
+ .section-5 .col-lg-3 h5{ color: white; font-size: 0.9em; font-weight: 400;}
+ .section-5 .card-body {text-align: center; position: relative;}
+ .section-5  .social-icon a{background-color: #222; color: white; display: inline-block; height: 50px; width: 50px; border-radius: 50px; border-radius: solid red 2px; font-size: 25px; text-align: center; line-height: 50px; position: absolute; top: -65px; left: 50%; transform: translate(-50%, 50%); transition: 1s;}
+ 
+
+.section-5  .social-icon:hover a{background-color: white; color: #222; width: 50px; height: 50px;}
+
+
+
+/* ----------------section-update---------------- */
+
+.section-update{font-size: 16px; padding: 50px 0px; position: relative;}
+.section-update .col-lg-12 .update{align-items: center;}
+.section-update .col-lg-12 .update h2{ font-size: 4em; font-weight: 100;}
+.section-update .col-lg-12 .update span{font-size: 1em; font-weight: 800; color: #e10f28; padding-left: 20px;}
+.section-update .para{font-size: 1.1em; color: #222; font-weight: 400;}
+.section-update .btn{position: absolute; top: 50%; right:0px; transform: translate(20%, -50%);}
+.section-update .btn button{background-color: #222;  border:none; color: white; padding: 12px 24px;  font-size: 1em; font-weight: 700; border-radius: 30px;}
+
+
+
+
+/* section-update col-lg-4 -------------*/
+.section-update .col-lg-4{font-size: 16px; padding: 80px 15px;}
+.section-update .card-body {background-color: #f1f1f1;}
+.section-update .col-lg-4 .date{font-size: 0.8em; font-weight: 100; color: #555;}
+.section-update .col-lg-4 .date h6 i {padding-right: 5px;}
+.section-update .col-lg-4 .date span i{padding-right: 5px;}
+.section-update .col-lg-4 .date span{padding-left: 18px;}
+.section-update .col-lg-4 .title h3 { font-size: 1.6em; font-weight: 600; color:#444;}
+.section-update .col-lg-4 .para{font-size: 0.8em;  color: #555; line-height: 2;}
+.section-update a  {text-decoration: none;}
+.section-update .footer {padding: 20px 0px;}
+.section-update .footer h6{font-size: 0.8em; color: #555; font-weight: 500;}
+.section-update .footer h6 i{padding-right: 10px;}
+.section-update .footer span i{padding-left: 10px;}
+
+/* --------------section-update close------------- */
+
+
+
+/* ------------section-notification-------------- */
+
+.section-notification{background-image: url(..//img/bgn-newsletter-subscribe.jpg); background-size: cover;}
+.section-notification{padding: 100px 0px; font-size: 16px;}
+.section-notification .col-lg-6 .title{font-size: 1.4em; color: #222; padding: 20spx 0px; font-weight: 400;}
+.section-notification .col-lg-6 .title::after{content: ""; display: block; width: 12%; height: 2px; background: #e10f28; position: absolute; margin-top: 5px;}
+.section-notification .col-lg-6 .notice{font-size: 5em; font-weight: 200; color:#222; }
+.section-notification .col-lg-6 .notice-1{font-size: 5em; font-weight: 900; color: #e10f28; line-height: 60px;}
+.section-notification .col-lg-6 p{ color: #444; font-size: 1.2em; font-weight: 400; padding-top: 40px;}
+.section-notification input{width: 30%; background-color: #f1f1f1; border: none; border-radius: 30px; padding: 10px 15px;  }
+.section-notification .btn{border-radius: 30px; padding: 10px 20px; background-color: #e10f28; font-size: 1em ; font-weight: 700;}
+
+
+
+/* ----------------section-map-------------------- */
+
+
+.section-map {position:relative;}
+.section-map .map iframe{width: 100%; height: 700px;}
+
+.section-map .map-caption{font-size: 16px;}
+.section-map .map-caption .col-lg-3{background-color: #222; color: white; position: absolute; top: 0px; height: 100%; text-align: center;}
+.section-map .map-caption .col-lg-3 .heading h2 {color: #e10f28; font-size: 2em; padding: 50px 0px; font-weight: 700; }
+.section-map .map-caption .col-lg-3 .timing {padding: 10px 50px; border-bottom: 2px solid #555;}
+.section-map .map-caption .col-lg-3 .timing:nth-child(5) {border: none;}
+.section-map .map-caption .col-lg-3 .timing .days h6{font-size: 1em; font-weight: 600; color: #f1f1f1;}
+.section-map .map-caption .col-lg-3 .timing .time h6{font-size: 1em; font-weight: 600; color: #f1f1f1;}
+.section-map .map-caption .col-lg-3 .col-lg-12 > .row {border-top: 2px solid #555; padding: 5px 0px;}
+.section-map .map-caption .col-lg-3 .col-lg-12 .left-box{width: 30%; align-items: center; justify-content: center; }
+.section-map .map-caption .col-lg-3 .col-lg-12 .left-box img{ padding: 20px 15px; color: #e10f28; width: 100%; }
+.section-map .map-caption .col-lg-3 .col-lg-12 .right-box{width: 70%; text-align: start; color: white; padding-left: 10px;}
+.section-map .map-caption .col-lg-3 .col-lg-12 .right-box h6{line-height: 0px; padding: 0px; margin: 0px; font-size: 1em;  font-weight: 700;}
+.section-map .map-caption .col-lg-3 .col-lg-12 .right-box span{line-height: 0px; padding: 0px; margin: 0px; font-size: 0.9em; font-weight: 300; } 
+
+
+
+
+/* --------------------Footer Start---------------------- */
+.footer-1{font-size: 16px; margin-top: -30px; background-color: #e10f28;} 
+.footer-1 .navbar {width: 100%;}
+
+.footer-1 .service h4{ font-size:1.4em ; font-weight: 400; text-align: start;}
+.footer-1 .service span{font-size: 1.2em; font-weight: 800; color: #e10f28;}
+.footer-1 .navbar .social-icon a {
+    color: #e10f28;
+    padding-left: 15px;
+    font-size: 20px;
+    justify-content: center; align-items: center;}
+
+
+/* --------------footer-last------------------ */
+.footer-last{font-size: 16px; padding-top: 40px;}
+.footer-last a{display: inline-block;}
+.footer-last h6 {display: block;}
+.footer-last h6 a {color: white; font-size: 1em; padding:8px 10px;}
+.footer-last h6 a:hover{color: rgb(196, 195, 195);}
+.footer-last h6 span{font-size: 0.7em; padding: 0px 0px; padding: 0px 0px; line-height: 0;}
+
+.footer-last .col-lg-4 .phone{width: 100%; text-align: end;}
+.footer-last .col-lg-4 h2{font-size: 2em; font-weight: 800; color: #222; text-align: end;}
+.footer-last .col-lg-4 .left-box{width: 30%; align-items: center; justify-content: center; }
+.footer-last .col-lg-4 .left-box img{ padding: 20px 15px; color: #e10f28; width: 100%; color: white; }
+.footer-last .col-lg-4 .right-box{width: 70%; text-align: start; color: white; padding-left: 10px; padding-top: 60px;}
+.footer-last .col-lg-4 .right-box h6{line-height: 0px; padding: 0px; margin: 0px; font-size: 1em; font-weight: 700;}
+.footer-last .col-lg-4 .right-box span{line-height: 0px; padding: 0px; margin: 0px; font-size: 0.9em; font-weight: 300; } 
+
+
+
+.footer-2{background-color: #e10f28; font-size: 16px; color: white; padding: 10px 0px;}
+.footer-2 > .container{border-top: 1px solid silver;}
+.footer-2 > .row{justify-content: space-between; }
+.footer-2 .left-box  h6{font-size: 0.8em; color: white; font-weight: 200; padding-top: 10px;}
+.footer-2 .nav a{color: white; font-size: 0.9em; font-weight: 400; }
+.footer-2 .nav a i{color: white;}
+
+
+
+@media(max-width:992px){
+    .about-us .col-lg-8{margin-top: 90px; font-size: 10px; width: 50%; text-align: start;}
+    .about-us  .right-box{text-align: start;} 
+    .about-team .name-heading{color: #e10f28; font-weight: 500; font-size: 0.8em!important; }
+    .about-us .name-position{color: #222; font-weight: 200; font-size: 0.8em; text-align: end;}
+    .about-us .col-lg-8{margin-top: 90px; font-size: 10px; width: 70%; text-align: center;}
+    .about-us .second{padding-top: 30px; padding-bottom: 100px;}
+    /* --------------------------------------------about us close--------------------------------------------- */
+
+    .section-4 .col-lg-4 img{width: 90%; padding-bottom: 20px; padding-left: 60px; padding-right: 60px;}
+    /* -------------------------------------------section-4 close----------------------------------- */
+
+    .section-update .col-lg-4{padding: 20px 15px;}
+    /* -------------------------section-update close---------------------------------------------- */
+
+    .section-notification{font-size: 10px;}
+    /* --------------------------------section-notification------------------------------------------ */
+
+    .section-map .map-caption{font-size: 10px;}
+    .section-map .map-caption .col-lg-3 .col-lg-12 .left-box img{  color: #e10f28;  }
+    /* --------------------------------section-map close---------------------------------------------- */
+
+    .footer-1{font-size: 12px;}
+
+    .footer-last{font-size: 12px;}
+    /* ------------------------------footer close-------------------------------------------------------- */
+    
+}
+
+
+
+@media(max-width:992px){
+    .navbar .social-icon {display: none;}
+
+}
+@media(max-width:768px){
+    .navbar .social-icon {display: none;}
+    .banner .caption {width: 50%; position: absolute; top: 50%; left: 10%; transform: translate(0%, -50%);}
+    .banner .para-1{font-size: 20px;}
+    .banner .para-2-bold{font-size: 60px;}
+    .banner .para-3{font-size: 50px;}
+    .banner .caption .banner-area-btn button{padding: 8px 18px; font-weight: 600; margin-top: 8px;}
+    .banner .para-2-your-wealth{font-size: 50px;}
+    .banner .para-3-bold{font-size: 45px;}
+    /* -------------------------------banner close-------------------------------------- */
+
+    .section-map .map-caption .col-lg-3{position: static;}
+    .about-us .col-lg-8{margin-top: 90px; font-size: 14px;  text-align: center;}
+    .about-us .second{padding-top: 30px; padding-bottom: 100px;}
+
+    .about-us  .right-box{text-align: start;} 
+    .about-team .name-heading{color: #e10f28; font-weight: 500; font-size: 0.8em; }
+    .about-us .name-position{color: #222; font-weight: 200; font-size: 0.8em; text-align: end;}
+    /* ----------------------------------about us close---------------------------------------- */
+
+
+    .section-4 .col-lg-4 img{width: 60%; padding-bottom: 20px; margin-left: 70px;  text-align: center; border-right: none;}
+    /* --------------------------------section-4 close--------------------------------- */
+
+
+    .section-update .btn button{display: none;}
+    .section-update .col-lg-4{padding: 20px 15px;}
+    /*--------------------------------- section-update close------------------------------------------ */
+
+    .section-notification{font-size: 10px;}
+    /* ----------------------section-natification--------------------------- */
+
+    .section-map .map-caption .col-lg-3 .col-lg-12 .left-box img{  color: #e10f28;  }
+    /* ---------------------section-map close------------------------------ */
+
+    .footer-1{font-size: 10px;}
+    .footer-last h6 span{display: none;}
+    .footer-last{padding-left: 30px;}
+    .footer-last .col-lg-4 h2{font-size: 2.8em; font-weight: 800; color: #222; text-align: center;}
+    .footer-last .col-lg-4 .left-box img{ padding: 20px 15px; color: #e10f28; width: 70%; color: white; }
+    /* -------------------------footer close------------------------------------------------------------- */
+    
+    
+
+.section-update .col-lg-12 .update h2 {
+    font-size: 3em;
+    font-weight:100;
+}
+.section-5 {font-size: 14px;  padding-bottom: 90px;}
+
+
+}
+
+
+@media(max-width:568px){
+    .banner .para-1{font-size: 13px;}
+    .banner .para-2-bold{font-size: 42px;}
+    .banner .para-3{font-size: 35px;}
+    .banner .caption .banner-area-btn button{padding: 8px 18px; font-weight: 600; margin-top: 8px;}
+    .banner .para-2-your-wealth{font-size: 35px;}
+    .banner .para-3-bold{font-size: 35px;}
+    .banner .caption {width: 100%; position: absolute; top: 50%; left: 10%; transform: translate(0%, -50%);}
+    /* -------------------------------banner close------------------------ */
+    .about-us .col-lg-8{margin-top: 90px; font-size: 12px;text-align: center; width:100%;}
+    .about-us .second{padding-top: 30px; padding-bottom: 100px;}
+    .about-us  .right-box{text-align: start;} 
+    /* ---------------------------------about-us close--------------------------- */
+
+    .section-4 .col-lg-4 img{width: 50%; padding-bottom: 20px; margin-left: 100px; padding-right: 50px; border-right: none;}
+    /* --------------------------section-4 close------------------------------- */
+    
+    .section-update .btn button{display: none;}
+    
+    .section-update .col-lg-4{padding: 20px 15px;}
+    /* ------------------------section-update close-------------------------------- */
+
+    .section-map .map-caption .col-lg-3 .col-lg-12 .left-box img{color: #e10f28; }
+    /* -------------------------section-map------------------------------------------- */
+    .footer-1{font-size: 10px;}
+    .footer-last h6 span{display: none;}
+    .footer-last{padding-left: 30px;}
+    .footer-last .col-lg-4 .left-box img{ padding: 20px 15px; color: #e10f28; color: white; }
+    /* -------------------------footer close--------------------------------------------- */
+
+}
+
+@media(max-width:375px){
+    .banner .caption {width: 50%; position: absolute; top:0%; left: 10%; transform: translate(-70%, -50%); font-size: m;}
+    .section-5 {font-size: 0.68em;}
+    .section-4 .col-lg-4 img{width: 50%; padding-bottom: 20px; margin-left: 80px; padding-right: 50px; border-right: none;}
+    .section-3{font-size: 0.9em; padding: 5px;}
+    .section-update{font-size: 0.8em;}
+}
+
+
+
+
+/* -------------------------------------------------------------------------------About-------------------------------------------------------------------------------------- */
+.banner-about .slider-about{background-image: url('..//img/bgn-slider-03.jpg'); background-size: cover; background-position: center;}
+
+.navbar .nav-item .dropdown{display: none;}
+.navbar .nav-item:hover .dropdown-menu{display: block; border-top: 2px solid #e10f28; font-size: 0.75em; line-height: 2;}
+
+.section-4 .col-lg-4 .img img{width: 80%; height: 60%;  margin: 30px 0px; justify-content: center; margin-left: 25px; }
+.section-4 .col-lg-4{border-bottom: 1px solid  rgb(196, 195, 195); padding-bottom: 30px; padding-top: 0px;}
+
+/* ------------------------medicar------------------------- */
+
+.medicare .img{background-image: url('..//img/bgn-general-info.jpg'); background-size: cover; background-position: center; padding-top: 0px; height: 120vh;}
+.medicare .col-lg-12 .caption .para-1{color:white;}
+.medicare  .col-lg-12 .caption .para-2-bold{font-size: 70px; font-weight: 900; color:#e10f28; font-family: Montserrat!important; line-height: 1.15;} 
+.medicare .caption span{font-size: 50px; font-weight: 100; color: white; line-height: 1.5; padding-left: 10px;}
+.medicare .caption p{color: white;}
+.medicare .caption{padding-top: 0px;}
